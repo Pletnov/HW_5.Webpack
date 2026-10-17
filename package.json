@@ -1,0 +1,27 @@
+{
+  "name": "hw_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.5",
+    "csv-loader": "^3.0.5",
+    "html-webpack-plugin": "^5.6.8",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.112.0",
+    "webpack-cli": "^7.2.3",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "jquery": "^4.0.0"
+  }
+}
